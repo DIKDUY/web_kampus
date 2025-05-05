@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noboru Coffee - Cafe Jepang Dekat Esa Unggul</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fff9f9;
+      color: #333;
+    }
+    .japanese-theme {
+      color: #e74c3c;
+      border-left: 4px solid #e74c3c;
+      padding-left: 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      transition: transform 0.3s;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+    .info-section {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 20px 0;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    }
+    .highlight {
+      background: #ffeded;
+      padding: 15px;
+      border-radius: 8px;
+      margin: 15px 0;
+    }
+    .back-button {
+      display: inline-block;
+      background: #e74c3c;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 20px;
+    }
+    .menu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+    .japanese-font {
+      font-family: 'MS Gothic', sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="japanese-theme">🍵 Noboru Coffee</h1>
+  
+  <div class="info-section">
+    <h2 class="japanese-theme">📍 Lokasi</h2>
+    <p>Ruko Jepang Citra Raya Blok C1 No.8, <strong>7 menit</strong> dari kampus</p>
+    <iframe 
+      src="https://maps.google.com/maps?q=Noboru+Coffee+Citra+Raya&output=embed" 
+      width="100%" 
+      height="300" 
+      style="border:0; border-radius:8px; margin-top:10px;"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="highlight">
+    <h3>🎎 Konsep Unik</h3>
+    <p>"Cafe bergaya Jepang tradisional dengan taman zen dan musik instrumental, membawa suasana Kyoto ke Tangerang"</p>
+  </div>
+
+  <div class="info-section">
+    <h2 class="japanese-theme">🕒 Jam Operasional</h2>
+    <p>Selasa-Minggu: 10.00 - 20.00 WIB</p>
+    <p><em>*Tutup setiap hari Senin</em></p>
+    
+    <h2 class="japanese-theme">🎏 Fasilitas</h2>
+    <ul>
+      <li>Taman Jepang dengan kolam koi</li>
+      <li>Ruang tatami (lesehan)</li>
+      <li>Free WiFi</li>
+      <li>Spot foto kimono (free)</li>
+      <li>Perpustakaan manga</li>
+    </ul>
+  </div>
+
+  <h2 class="japanese-theme">📷 Gallery</h2>
+  <div class="gallery">
+    <a href="images/NOBORU/noboru1.jpg" data-lightbox="noboru" data-title="Interior Jepang">
+      <img src="images/NOBORU/noboru1.jpg" alt="Interior Jepang">
+    </a>
+    <a href="images/NOBORU/noboru2.jpg" data-lightbox="noboru" data-title="Taman Zen">
+      <img src="images/NOBORU/noboru2.jpg" alt="Taman Zen">
+    </a>
+    <a href="images/NOBORU/noboru3.jpg" data-lightbox="noboru" data-title="Matcha Set">
+      <img src="images/NOBORU/noboru3.jpg" alt="Matcha Set">
+    </a>
+    <a href="images/NOBORU/noboru4.jpg" data-lightbox="noboru" data-title="Area Tatami">
+      <img src="images/NOBORU/noboru4.jpg" alt="Area Tatami">
+    </a>
+    <a href="images/NOBORU/noboru5.jpg" data-lightbox="noboru" data-title="Area Tatami">
+      <img src="images/NOBORU/noboru5.jpg" alt="Area Tatami">
+    </a>
+  </div>
+
+  <div class="info-section">
+    <h2 class="japanese-theme">🍱 Menu Jepang</h2>
+    <div class="menu-grid">
+      <div>
+        <p><strong>Noboru Matcha</strong> - Rp 40.000</p>
+        <p><strong>Hojicha Latte</strong> - Rp 38.000</p>
+        <p><strong>Dorayaki</strong> - Rp 30.000</p>
+      </div>
+      <div>
+        <p><strong>Omurice</strong> - Rp 50.000</p>
+        <p><strong>Ramen Shoyu</strong> - Rp 55.000</p>
+        <p><strong>Taiyaki</strong> - Rp 25.000</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="info-section">
+    <h2 class="japanese-theme">📌 Tips Berkunjung</h2>
+    <ol>
+      <li>Weekend lebih ramai, datang sebelum jam 11</li>
+      <li>Coba dresscode ala Jepang untuk diskon 15%</li>
+      <li>Reservasi untuk ruang tatami minimal 3 jam sebelumnya</li>
+    </ol>
+  </div>
+
+  <a href="index.html" class="back-button">← Kembali ke Halaman Utama</a>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'albumLabel': "写真 %1 / %2" // Label dalam bahasa Jepang
+    })
+  </script>
+</body>
+</html>
